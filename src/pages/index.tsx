@@ -2,6 +2,7 @@ import { Flex, Heading } from "@chakra-ui/react"
 import { Banner } from "../components/Banner"
 import { Header } from "../components/Header"
 import { Separator } from "../components/Separator"
+import  Slider  from "../components/Slider"
 import { TravelTypes } from "../components/TravelTypes"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         fontSize={["lg", "3xl", "4xl"]}
 
       >Vamos nessa? <br />Então escolha seu continente!</Heading>
+      <Slider />
 
       
     </Flex>
